@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Library> 
+	<Book category="Technical">  
+		<Title>Learning Python Second Edition</Title> 
+		<Author>Mark Lutz and David Ascher</Author>
+		<isbn-10>0-596-00281-5</isbn-10>	
+		<isbn-13>978-0-596-00281-7</isbn-13> 
+		<Title>Learn Python 3 the Hard Way: A Very Simple Introduction</Title> 
+		<Author>ZED Shaw</Author>
+		<isbn-10>0134692888</isbn-10>	
+		<isbn-13>978-0134692883</isbn-13> 
+	</Book> 
+	<Book category="Cookery"> 
+		<Title>The Foxfire Book of Appalachian Cookery</Title> 
+		<Author>TJ Smith and Sean Brock</Author>
+		<isbn-10>146965461X</isbn-10>	
+		<isbn-13>978-1469654614</isbn-13> 
+		<Title>Gordon Ramsay's Ultimate Cookery Course</Title> 
+		<Author>Gordon Ramsay</Author>
+		<isbn-10>978 1 444 75669 2</isbn-10>	
+		<isbn-13>978 1 444 75670 8</isbn-13> 
+	</Book> 
+</Library> 
+
+	
+	
+	
+	
+	
+	
