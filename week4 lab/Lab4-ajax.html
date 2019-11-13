@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <title>
+        Lab 4 EUR
+     </title>
+</head>
+<body>
+    <button onclick="readJSON()">go</button>
+    <div>The Euro Price of Bitcoin is </div>
+    <div id= "output", > </div>
+</body>
+    <script>
+        function readJSON(){
+        $.ajax({
+            "url": "https://api.coindesk.com/v1/bpi/currentprice.json ",
+            "method":"GET",
+            "data":"",
+            "dataType": "JSON",
+            "success":function(result){var rate = result.bpi.EUR.rate;
+            console.log("The Euro Price of Bitcoin is €",rate);
+            document.getElementById("output").innerText = rate;},
+            "error":function(xhr,status,error){console.log("error: "+status+" msg:"+error);
+            }
+            });
+            }
+            
+    </script>
+</html>
+
+
