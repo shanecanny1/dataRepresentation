@@ -1,0 +1,22 @@
+<!-- Exercise 2.4 -->
+<!--Shane Canny -->
+<!-- 28 Oct 2019 -->
+
+<html>
+ <head>
+ <title>Exercise 2.4</title>
+ </head>
+ <body>
+    <input id="name" type="text"/> <!-- Inserting a text box-->
+    <button onclick="buttonclicked()">click me</button> <!-- Inserting a click button with a function called buttonclicked-->     
+ </br> <!-- Putting in a break to start a new line-->
+ <div id="output"> output will go here</div> <!-- Here is where the output of the function will be displayed-->
+<script>
+    function buttonclicked(){
+         var output =document.getElementById("name").value
+         document.getElementById("output").innerText=output
+        } 
+
+</script> <!-- Line 16 Here we are getting the information typed in the text box witht he ID "name"-->
+</body> <!-- Line 17 Here we are putting the typed text into the div location named "output"-->
+</html>
